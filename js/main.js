@@ -155,7 +155,7 @@ document.addEventListener("click", (e) => {
         parentEl.remove()
 
         //utilizando dados da localstorage
-        removeTodoLocalSorage(todoTitle)
+        removeTodoLocalStorage(todoTitle)
     }
 
     if (targetEl.classList.contains("edit-todo")) {
